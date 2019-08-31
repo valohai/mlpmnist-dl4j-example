@@ -1,12 +1,14 @@
-# MLPMNist Single Layer
+# MLPMnist-dl4j-example: MLPMNist Single Layer [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer)
 
-MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer)
+This repo is a result of the blog post [How to do Deep Learning for Java](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform). Please refer to the post before considering using this repo to understand better on how to use the different aspects of it.
+
+Original home of the project: https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/cloud-devops-infra/valohai/MLPMnist
 
 ---
 
 Open built-in Terminal from the Android Studio or IntelliJ IDEA. 
 If you prefer, use the terminal app on your computer.
-In the terminal window, `cd` to the project root directory `MLPMnist` if not already in.
+In the terminal window, `cd` to the project root directory `MLPMnist-dl4j-example` if not already in.
 (_you can use IDE's run-configuration green run button, if you like._)
 
 ### Build app
@@ -63,4 +65,4 @@ This example has been inspired by the [MLPMNist example](https://github.com/deep
 
 ---
 
-Back to [main page (table of contents)](../../../../README.md#awesome-ai-ml-dl-)
+Back to [main page (table of contents)](https://github.com/neomatrix369/awesome-ai-ml-dl#awesome-ai-ml-dl-)
