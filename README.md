@@ -2,7 +2,7 @@
 
 This repo is a result of the blog post [How to do Deep Learning for Java](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform). Please refer to the post before considering using this repo to understand better on how to use the different aspects of it.
 
-Original home of the project: https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/cloud-devops-infra/valohai/MLPMnist
+Previous home of the project: https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/cloud-devops-infra/valohai/MLPMnist
 
 ---
 
@@ -61,7 +61,11 @@ At the prompt in the container, do the same as mentioned in section [Run app loc
 
 ## Credits
 
-This example has been inspired by the [MLPMNist example](https://github.com/deeplearning4j/dl4j-examples/tree/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/feedforward/mnist) example from DL4J. Credits to the original authors of this example on https://github.com/deeplearning4j/dl4j-examples.
+This example has been inspired by the [MLPMNist example](https://github.com/deeplearning4j/dl4j-examples/tree/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/feedforward/mnist) example from DL4J. Credits to the original authors of this example on https://github.com/deeplearning4j/dl4j-examples, 
+
+## License
+
+Original authors of this DL4J example project remain the license holders of the work, although the original work has been modified to a good extent, and the Apache 2.0 License is cited for all those file/files in the matter (see [License.txt](License.txt) in the root of the project). Exception to the above: four bash scripts have been authored by Mani Sarkar and have been cited under the Apache 2.0 license.
 
 ### Resources
 
