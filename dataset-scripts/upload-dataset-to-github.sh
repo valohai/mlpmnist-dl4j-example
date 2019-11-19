@@ -84,11 +84,11 @@ function releaseDatasetArtifacts() {
 }
 
 
-if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
-  read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
+if [[ -z ${GITHUB_USER_NAME:-""} ]]; then
+  read -p "GitHub username (must exist on GitHub): " GITHUB_USER_NAME
 fi
 
-TARGET_REPO="${DOCKER_USER_NAME}/awesome-ai-ml-dl"
+TARGET_REPO="${GITHUB_USER_NAME}/awesome-ai-ml-dl"
 
 if [[ -z ${MY_GITHUB_TOKEN} ]]; then
   echo "MY_GITHUB_TOKEN cannot be found in the current environment, please populate to proceed either in the startup bash script of your OS or in the environment variable settings of your CI/CD interface."

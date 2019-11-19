@@ -22,11 +22,11 @@ set -o pipefail
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
-  read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
+if [[ -z ${GITHUB_USER_NAME:-""} ]]; then
+  read -p "Github username (must exist on Github): " GITHUB_USER_NAME
 fi
 
-TARGET_REPO="${DOCKER_USER_NAME}/awesome-ai-ml-dl"
+TARGET_REPO="${GITHUB_USER_NAME}/awesome-ai-ml-dl"
 RELEASE_VERSION="0.1"
 TAG_NAME="mnist-dataset-v${RELEASE_VERSION}"
 
